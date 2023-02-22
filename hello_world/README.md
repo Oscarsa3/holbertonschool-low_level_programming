@@ -6,4 +6,6 @@ compile un archivo C pero no enlace
 Genera un codigo ensamblador de un codigo c se guarda en un archivo de salida
 ##3-name
 Compila un archivo c y crea un ejecutable llamado cisfun
+##4-puts.c
+Imprime un texto seguido de una nueva linea
 
