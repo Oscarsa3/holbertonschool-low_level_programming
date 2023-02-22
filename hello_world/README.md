@@ -8,4 +8,6 @@ Genera un codigo ensamblador de un codigo c se guarda en un archivo de salida
 Compila un archivo c y crea un ejecutable llamado cisfun
 ##4-puts.c
 Imprime un texto seguido de una nueva linea
+##5-printf.c
+Imprime un texto en un programa en c seguido de una nueva linea sin usar puts
 
