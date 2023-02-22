@@ -12,4 +12,6 @@ Imprime un texto seguido de una nueva linea
 Imprime un texto en un programa en c seguido de una nueva linea sin usar puts
 ##6-size-c
 Imprime el tamaño de varios tipos de datos en la computadora en la que se compila y ejecuta
+##100-intel
+Crear un script que genere el codigo ensamblador de un archivo c con la sintaxis de intel y guarde su salida en un archivo .s
 
