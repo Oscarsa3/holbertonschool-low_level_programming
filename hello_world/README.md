@@ -10,4 +10,6 @@ Compila un archivo c y crea un ejecutable llamado cisfun
 Imprime un texto seguido de una nueva linea
 ##5-printf.c
 Imprime un texto en un programa en c seguido de una nueva linea sin usar puts
+##6-size-c
+Imprime el tamaño de varios tipos de datos en la computadora en la que se compila y ejecuta
 
