@@ -12,4 +12,6 @@ Imprime el abecedario excepto las letras q y e
 Imprime los numeros de un digito en base 10
 ##6-print_numberz.c
 Imprime los numeros de un digito en base 10
+##7-print_tebahpla.c
+Imprime el abecedario al revez
 
