@@ -3,7 +3,7 @@ Muestra en pantalla un texto llamando una funcion en main.h
 ##1-alphabet.c
 Muestra el abecedario en pantalla llamando una funcion
 ##2-print_alphabet_x10.c
-
+Imprime el abecedario diez veces
 ##3-islower.c
 
 ##4-isalpha.c
