@@ -14,4 +14,6 @@ Imprime los numeros de un digito en base 10
 Imprime los numeros de un digito en base 10
 ##7-print_tebahpla.c
 Imprime el abecedario al revez
+##8-print_base16.c
+Imprime todos los numeros en base 16 en minuscula
 
