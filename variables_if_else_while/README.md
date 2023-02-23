@@ -6,4 +6,6 @@ Imprime un numero aleatorio e indica cual es el numero final
 Imprime el abecedario en minusculas de forma horizontal con un salto de linea
 ##3-print_alphabets.c
 Imprime el abecedario en minuscula y mayuscula en la misma linea horizontal con un salto de linea al fina
+##4-print_alphabt.c
+Imprime el abecedario excepto las letras q y e
 
