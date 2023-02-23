@@ -7,7 +7,7 @@ Imprime el abecedario diez veces
 ##3-islower.c
 Imprime 1 si es minuscula sino imprime 0
 ##4-isalpha.c
-
+Imprime 1 si son mayusculas o minusculas sino 0
 ##5-sign.c
 
 ##6-abs.c
