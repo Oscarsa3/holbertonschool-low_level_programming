@@ -20,4 +20,6 @@ Imprime todos los numeros en base 16 en minuscula
 Imprime todas las combinacios de los numeros de un solo digito
 ##100-print_comb3.c
 Imprime todas las combinaciones de dos digitos sin repetir las combinaciones como 01 y 10
+##101-print_comb4.c
+Imprime todas las combinaciones de tres digitos sin repetir las combinaciones
 
