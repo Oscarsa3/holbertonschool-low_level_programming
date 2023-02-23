@@ -22,4 +22,5 @@ Imprime todas las combinacios de los numeros de un solo digito
 Imprime todas las combinaciones de dos digitos sin repetir las combinaciones como 01 y 10
 ##101-print_comb4.c
 Imprime todas las combinaciones de tres digitos sin repetir las combinaciones
-
+##102-print_comb5.c
+Imprime las combinaciones de los numeros de 4 digitos sin repetir las combinaciones
