@@ -4,4 +4,6 @@ Este programa dara numeros al azar y mostrará si es positivo, negativo o cero
 Imprime un numero aleatorio e indica cual es el numero final
 ##2-print_alphabet.c
 Imprime el abecedario en minusculas de forma horizontal con un salto de linea
+##3-print_alphabets.c
+Imprime el abecedario en minuscula y mayuscula en la misma linea horizontal con un salto de linea al fina
 
