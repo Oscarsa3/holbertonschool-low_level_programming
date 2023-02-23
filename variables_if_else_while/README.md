@@ -10,4 +10,6 @@ Imprime el abecedario en minuscula y mayuscula en la misma linea horizontal con 
 Imprime el abecedario excepto las letras q y e
 ##5-print_numbers.c
 Imprime los numeros de un digito en base 10
+##6-print_numberz.c
+Imprime los numeros de un digito en base 10
 
