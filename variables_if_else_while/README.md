@@ -7,7 +7,7 @@ Imprime el abecedario en minusculas de forma horizontal con un salto de linea
 ##3-print_alphabets.c
 Imprime el abecedario en minuscula y mayuscula en la misma linea horizontal con un salto de linea al fina
 ##4-print_alphabt.c
-Imprime el abecedario excepto las letras q y e
+Iimprime el abecedario excepto las letras q y e
 ##5-print_numbers.c
 Imprime los numeros de un digito en base 10
 ##6-print_numberz.c
@@ -16,4 +16,6 @@ Imprime los numeros de un digito en base 10
 Imprime el abecedario al revez
 ##8-print_base16.c
 Imprime todos los numeros en base 16 en minuscula
+##9-print_comb.c
+Imprime todas las combinacios de los numeros de un solo digito
 
