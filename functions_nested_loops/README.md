@@ -5,7 +5,7 @@ Muestra el abecedario en pantalla llamando una funcion
 ##2-print_alphabet_x10.c
 Imprime el abecedario diez veces
 ##3-islower.c
-
+Imprime 1 si es minuscula sino imprime 0
 ##4-isalpha.c
 
 ##5-sign.c
