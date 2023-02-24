@@ -13,7 +13,7 @@ Imprime  +1 si es amyor a cero, -1 si es menor que cero, 0 si es cero y / si no 
 ##6-abs.c
 Muestra el valor absoluto de los numeros
 ##7-print_last_digit.c
-
+Imprime el ultimo digito de un numero
 ##8-24_hours.c
 
 ##9-times_table.c
