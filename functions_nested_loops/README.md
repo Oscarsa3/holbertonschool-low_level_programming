@@ -15,7 +15,7 @@ Muestra el valor absoluto de los numeros
 ##7-print_last_digit.c
 Imprime el ultimo digito de un numero
 ##8-24_hours.c
-
+Imprime la hora explayada en horas y minutos
 ##9-times_table.c
 
 ##10-add.c
