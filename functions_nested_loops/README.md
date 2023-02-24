@@ -17,8 +17,8 @@ Imprime el ultimo digito de un numero
 ##8-24_hours.c
 Imprime la hora explayada en horas y minutos
 ##9-times_table.c
-
+Imprimi la tabla del 9
 ##10-add.c
-
+Suma dos numeros
 ##11-print_to_98.c
 
