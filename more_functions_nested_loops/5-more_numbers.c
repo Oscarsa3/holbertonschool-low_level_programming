@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * more_numbers - funcion
+ * @a, b: valores
+ *Return: nada
  */
 void more_numbers(void)
 {
