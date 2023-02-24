@@ -9,7 +9,7 @@ Imprime 1 si es minuscula sino imprime 0
 ##4-isalpha.c
 Imprime 1 si son mayusculas o minusculas sino 0
 ##5-sign.c
-
+Imprime  +1 si es amyor a cero, -1 si es menor que cero, 0 si es cero y / si no hay un digito
 ##6-abs.c
 
 ##7-print_last_digit.c
