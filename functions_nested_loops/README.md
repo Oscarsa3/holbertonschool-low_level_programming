@@ -11,7 +11,7 @@ Imprime 1 si son mayusculas o minusculas sino 0
 ##5-sign.c
 Imprime  +1 si es amyor a cero, -1 si es menor que cero, 0 si es cero y / si no hay un digito
 ##6-abs.c
-
+Muestra el valor absoluto de los numeros
 ##7-print_last_digit.c
 
 ##8-24_hours.c
