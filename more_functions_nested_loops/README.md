@@ -16,4 +16,5 @@ Imprime la cantidad de lineas segun el numero
 Imprime la cantidad de backslach que se indica con numeros
 ##8-print_square.c
 Imprime numeral las veces que se le indica de manera horizontal y vertical
-
+##9-fizz_buzz.c
+Imprime fiz si es divisible de 3 y buzz si lo es de 5 y fizzbuzz si es de ambos
