@@ -12,4 +12,6 @@ Imprime desde el 0 hasta el 9 con excepcion del 2 y 4
 imprime 10 veces los numeros del 0 al 14
 ##6-print_line.c
 Imprime la cantidad de lineas segun el numero
-##
+##7-print_diagonal.c
+Imprime la cantidad de backslach que se indica con numeros
+
