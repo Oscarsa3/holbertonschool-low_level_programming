@@ -10,3 +10,6 @@ Imprime los nnumeros del 1 al 9
 Imprime desde el 0 hasta el 9 con excepcion del 2 y 4
 ##5-more_numbers.c
 imprime 10 veces los numeros del 0 al 14
+##6-print_line.c
+Imprime la cantidad de lineas segun el numero
+##
