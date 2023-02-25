@@ -1,3 +1,5 @@
+##0-isupper.c
+Imprime 1 si es mayuscula sino imprime 0
 ##3-print_numbers.c
 Imprime los nnumeros del 1 al 9
 ##4-print_most_numbers.c
