@@ -14,4 +14,6 @@ imprime 10 veces los numeros del 0 al 14
 Imprime la cantidad de lineas segun el numero
 ##7-print_diagonal.c
 Imprime la cantidad de backslach que se indica con numeros
+##8-print_square.c
+Imprime numeral las veces que se le indica de manera horizontal y vertical
 
