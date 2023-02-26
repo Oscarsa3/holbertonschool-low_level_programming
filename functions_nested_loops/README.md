@@ -22,4 +22,5 @@ Imprimi la tabla del 9
 Suma dos numeros
 ##11-print_to_98.c
 imprime desde n al 98 seguido de una coma
-
+##100-times_table.c
+Imprime la tabla segun el numero asignado
