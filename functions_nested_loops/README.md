@@ -21,4 +21,5 @@ Imprimi la tabla del 9
 ##10-add.c
 Suma dos numeros
 ##11-print_to_98.c
+imprime desde n al 98 seguido de una coma
 
