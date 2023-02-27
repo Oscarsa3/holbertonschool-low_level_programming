@@ -3,7 +3,8 @@
 
 /**
  * reset_to_98 - funcion
- * @*n: puntero
+ * @n: puntero.
+ *
  * Return: nada
  *
  */
