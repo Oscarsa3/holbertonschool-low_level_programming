@@ -3,7 +3,7 @@
 
 /**
  * print_rev - funcion
- * @leng: variable
+ * @s: variable
  * Return: nada
  */
 void print_rev(char *s)
