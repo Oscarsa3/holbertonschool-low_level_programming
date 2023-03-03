@@ -20,6 +20,10 @@ char *_strncat(char *dest, char *src, int n)
 		s++;
 	for (co = 0; co < n; co++)
 	{
+		if (*dest == '\0' && *src == '\0')
+		{
+			return (dest);
+		}
 		dest[d] = src[co];
 		d++;
 	}
