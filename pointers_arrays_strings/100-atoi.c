@@ -2,15 +2,16 @@
 #include "main.h"
 
 /**
- *
+ * _atoi - funcion
+ * @s: variable
+ * Return: a*i
  */
 int _atoi(char *s)
 {
 	int i = 1;
 	int a = 0;
 
-	do
-	{
+	do {
 		if (*s == '-')
 		{
 			i *= -1;
@@ -19,8 +20,8 @@ int _atoi(char *s)
 		{
 			a = ((a * 10) + (*s - '0'));
 		}
-	
-	}
-	while (*s++);
+		else if (a > 0)
+			break;
+	} while (*s++);
 	return (a * i);
 }
