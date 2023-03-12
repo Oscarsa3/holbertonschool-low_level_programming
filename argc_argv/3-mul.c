@@ -3,7 +3,9 @@
 #include "main.h"
 /**
  * main - entry point
- *
+ * @argc: cantidad de argumentos
+ * @argv: argumentos
+ * Return: 0 si son sol o3 argumentos
  */
 int main(int argc, char *argv[])
 {
