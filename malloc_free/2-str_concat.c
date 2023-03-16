@@ -12,17 +12,20 @@ char *str_concat(char *s1, char *s2)
 {
 	char *ar;
 	int i = 0;
-	int a, b;
+	int a= 0;
+	int b = 0;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (a = 0; a <= *s1; a++)
+	while (s1[a])
 	{
+		a++;
 	}
-	for (b = 0; b <= *s2; b++)
+	while (s2[b])
 	{
+		b++;
 	}
 	ar = malloc(sizeof(char) * (a + b + 1));
 	if (ar == NULL)
