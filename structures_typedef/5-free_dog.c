@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * void free_dog - funcion
+ * free_dog - funcion
  * @d: puntero a la estructura
  * Return: nada
  */
