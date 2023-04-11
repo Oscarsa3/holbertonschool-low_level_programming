@@ -13,7 +13,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	dlistint_t *new = malloc(sizeof(dlistint_t));
 
 	if (new == NULL)
-		return (NULL);
+		return (*h);
 	if (*h == NULL)
 		return (*h);
 	new->n = n;
