@@ -29,7 +29,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		i++;
 	}
 	if (find == NULL)
-		return (1);
+		return (-1);
 	find->prev->next = find->next;
 	if (find->next)
 		find->next->prev = find->prev;
