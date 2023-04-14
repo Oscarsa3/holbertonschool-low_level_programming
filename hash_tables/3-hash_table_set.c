@@ -11,14 +11,13 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	size_t index;
 	char *valor = strdup(value);
 	hash_node_t *ptr, *tmp, *new;
-	int igual;
 
 	if (!ht | !key)
 		return (0);
 	index = key_index((unsigned char *)key, ht->size);
 	if (ht->array[index] == NULL)
 	{
-		new = malloc(sizeof(hash_node_t));
+		new->array[index] = malloc(sizeof(hash_node_t));
 		ht->array[index] = malloc(sizeof(hash_node_t));
 		ht->array[index]->value = valor;
 		ht->array[index]->key =strdup(key);
@@ -28,15 +27,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	else
 	{
 		tmp = ht->array[index];
-		while (ht->array[index]->next == NULL)
+		while (tmp != NULL)
 		{
-			igual = strcmp(tmp->value, valor);
-			if (igual == 0)
+			if (strcmp(tmp->value, valor) == 0)
 			{
 				tmp->value = valor;
 				return (1);
 			}
-			tmp->value = valor;  
+			tmp = tmp->next;  
 		}
 		ptr = malloc(sizeof(hash_node_t));
 		if (!ptr)
