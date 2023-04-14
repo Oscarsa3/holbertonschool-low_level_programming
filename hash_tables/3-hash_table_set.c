@@ -11,6 +11,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	size_t index;
 	char *valor = strdup(value);
 	hash_node_t *ptr;
+	int igual;
 
 	if (!ht | !key)
 		return (0);
@@ -24,6 +25,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	else
 	{
+		igual = strcmp(ht->array[index]->value, value);
+		if (igual == 0)
+			ht->array[index]->value = valor;
 
 		ptr = malloc(sizeof(hash_node_t));
 		if (!ptr)
