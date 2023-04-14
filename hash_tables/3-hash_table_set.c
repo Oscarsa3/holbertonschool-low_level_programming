@@ -28,7 +28,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		ptr = malloc(sizeof(hash_node_t));
 		if (!ptr)
 			return (0);
-		ht->array[index]->next->value = valor;
+		ptr->value = valor;
 		if (!ptr->value)
 			return (0);
 		ptr->key = (char *)key;
