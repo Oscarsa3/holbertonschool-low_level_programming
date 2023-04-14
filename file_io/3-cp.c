@@ -35,7 +35,10 @@ int main(int argc, char *argv[])
 		}
 		n2 = write(file_to, buffer, n1);
 		if (n2 < n1)
+		{	
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+			exit(99);
+		}
 	}
 	if (close(file_from) == -1)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from), exit(100);
