@@ -25,7 +25,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	else
 	{
-		igual = strcmp(ht->array[index]->value, value);
+		igual = strcmp(ht->array[index]->value, valor;
 		if (igual == 0)
 			ht->array[index]->value = valor;
 
