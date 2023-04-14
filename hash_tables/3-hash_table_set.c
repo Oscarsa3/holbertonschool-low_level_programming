@@ -32,7 +32,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			return (0);
 		ht->array[index]->next->key = (char *)key;
 		ht->array[index]->next->next = ht->array[index]->next;
-		ht->array[index] = NULL;
+		ht->array[index] = ht->array[index]->next;
 	}
 	return (1);
 }
