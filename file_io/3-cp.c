@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	file_from = open(argv[1], O_RDONLY);
 	if (file_from == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: can't read from file %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC,
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 		n1 = read(file_from, buffer, 1024);
 		if (n1 == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: can't read from file %s\n", argv[1]);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			exit(98);
 		}
 		n2 = write(file_to, buffer, n1);
