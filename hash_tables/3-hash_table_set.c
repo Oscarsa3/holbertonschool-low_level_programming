@@ -8,7 +8,7 @@
   */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	size_t index;	
+	size_t index;
 	hash_node_t *ptr, *tmp;
 
 	if (!ht | !key)
