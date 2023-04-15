@@ -1,6 +1,4 @@
 #include "hash_tables.h"
-hash_node_t *actualizar(hash_node_t *nodo, const char *key, char * valor);
-hash_node_t *new(hash_node_t *nuevo);
 /**
   * hash_table_set - agrega un nuevo noda a un index
   * @ht: tabla
@@ -18,8 +16,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 	index = key_index((unsigned char *)key, ht->size);
 	ptr = ht->array[index];
-	if (ptr == NULL)
-		ptr = new(NULL);
+	if (!ptr)
+		ptr = new_nodo(NULL);
 	if (ptr->key)
 	{
 		ht->array[index] = actualizar(ptr, key, valor);
@@ -28,9 +26,10 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	ptr->key = strdup(key);
 	ptr->value = valor;
 	ptr->next = NULL;
+	ht->array[index] = ptr;
 	return (1);
 }
-hash_node_t *new(hash_node_t *nuevo)
+hash_node_t *new_nodo(hash_node_t *nuevo)
 {
 	hash_node_t *nodo;
 
@@ -48,14 +47,16 @@ hash_node_t *actualizar(hash_node_t *nodo, const char *key, char *valor)
 
 	while (tmp)
 	{
-		if (strcmp(key, tmp->key))
-			tmp = tmp->next;
-		free(tmp->value);
-		tmp->value = valor;
-		return (nodo);
+		if (!strcmp(key, tmp->key))
+		{
+			free(tmp->value);
+			tmp->value = valor;
+			return (nodo);
+		}
+		tmp = tmp->next;
 	}
 	tmp = nodo;
-	nodo = new(nodo);
+	nodo = new_nodo(nodo);
 	if(!nodo)
 	{
 		nodo = tmp;
