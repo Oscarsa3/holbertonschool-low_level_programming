@@ -27,8 +27,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		igual = strcmp(ht->array[index]->value, valor);
 		if (igual == 0)
-			ht->array[index]->value = valor;
+		{	ht->array[index]->value = valor;
 			ptr = malloc(sizeof(hash_node_t));
+		}
 		if (!ptr)
 			return (0);
 		ptr->value = valor;
