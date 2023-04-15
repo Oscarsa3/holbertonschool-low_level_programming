@@ -25,11 +25,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	else
 	{
 		tmp = ht->array[index];
-		while (tmp->next != NULL)
+		while (tmp != NULL)
 		{
 			if (strcmp(tmp->value, valor) == 0)
 			{
-				tmp->key = strdup(key);
+				tmp->value = (char *)value;
 				return (1);
 			}
 			tmp = tmp->next;  
