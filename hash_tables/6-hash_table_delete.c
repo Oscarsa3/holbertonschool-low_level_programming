@@ -7,10 +7,11 @@
 void hash_table_delete(hash_table_t *ht)
 {
 	hash_node_t *tmp, *nodo;
-	hash_table_t *h = ht;
-	unsigned long int index;
+	size_t index = 0;
 
-	for (index = 0; index < ht->size; index++)
+	if (!ht)
+		return;
+	while (index < ht->size)
 	{
 		if (ht->array[index])
 		{
@@ -24,7 +25,8 @@ void hash_table_delete(hash_table_t *ht)
 				nodo = tmp;
 			}
 		}
+		index++;
 	}
-	free(h->array);
-	free(h);
+	free(ht->array);
+	free(ht);
 }
